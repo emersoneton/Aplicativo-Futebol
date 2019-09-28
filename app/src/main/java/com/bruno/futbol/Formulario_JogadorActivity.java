@@ -61,6 +61,13 @@ public class Formulario_JogadorActivity extends AppCompatActivity {
 
 
 
+    private void Excluir(){
+
+        Time time = new Time();
+
+        time.setNome("");
+
+    }
 
 
 

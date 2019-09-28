@@ -8,7 +8,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-public class Formulario_TimeActivity extends AppCompatActivity {
+import java.security.PublicKey;
+
+public class TIMES extends AppCompatActivity {
 
     private EditText etNomeTime;
 
@@ -59,4 +61,5 @@ public class Formulario_TimeActivity extends AppCompatActivity {
         }
 
     }
+
 }

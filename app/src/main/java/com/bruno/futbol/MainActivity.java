@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, Formulario_TimeActivity.class);
+                Intent intent = new Intent(MainActivity.this, TIMES.class);
                 startActivity( intent );
             }
         });
@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
         lvtimes.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
         public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-            Intent intent = new Intent(MainActivity.this, JogadoresActivity.class);
+            Intent intent = new Intent(MainActivity.this, Jogadores.class);
 
             //pega o objeto que esta na posição  que foi selecionado no ListView e joga no objeto de Time .
             Time  time= (Time) adapterView.getItemAtPosition(i);

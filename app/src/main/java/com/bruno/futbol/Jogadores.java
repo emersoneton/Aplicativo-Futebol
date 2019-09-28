@@ -5,7 +5,6 @@ import android.content.Intent;
 import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.snackbar.Snackbar;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,7 +19,7 @@ import android.widget.ListView;
 
 import java.util.List;
 
-public class JogadoresActivity extends AppCompatActivity {
+public class Jogadores extends AppCompatActivity {
 
     private Integer idtime;
      private ListView lvJogadores;
@@ -41,7 +40,7 @@ public class JogadoresActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(JogadoresActivity.this, Formulario_JogadorActivity.class);
+                Intent intent = new Intent(Jogadores.this, Formulario_JogadorActivity.class);
                 // esta eviando via putestra o id do Time cadastrado.
                 intent.putExtra("idtime",idtime);
                 startActivity( intent );
@@ -74,7 +73,7 @@ public class JogadoresActivity extends AppCompatActivity {
         alerta.setPositiveButton("Sim", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
-                JogadorDAO.excluirJogador(JogadoresActivity.this, jogador.getIdjogador());
+                JogadorDAO.excluirJogador(Jogadores.this, jogador.getIdjogador());
                 carregarLista();
             }
         });

@@ -10,10 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".JogadoresActivity"
+            android:name=".Jogadores"
             android:label="@string/title_activity_jogaadores"
             android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity android:name=".Formulario_TimeActivity" />
+        <activity android:name=".TIMES" />
         <activity android:name=".Formulario_JogadorActivity" />
 <!--        <activity android:name=".Formulario_JogadorActivity" />-->
         <activity

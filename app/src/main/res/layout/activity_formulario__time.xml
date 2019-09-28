@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Formulario_TimeActivity">
+    tools:context=".TIMES"
+    android:background="#19FF0026">
 
     <Button
         android:id="@+id/btnsalvartime"
@@ -24,7 +25,6 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Nome do Time"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -36,11 +36,27 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Cadastro do Time "
-        android:background="#f00"
-        android:textColor="#fff"
+        android:textColor="#f00"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.298" />
+        app:layout_constraintVertical_bias="0.14" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="146dp"
+        android:layout_marginEnd="219dp"
+        android:layout_marginBottom="25dp"
+        android:text="Nome do Time"
+        app:layout_constraintBottom_toTopOf="@+id/txtnometime"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cadastrotime" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
