@@ -12,7 +12,10 @@
     <ListView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/lvJogadores">
+        android:id="@+id/lvJogadores"
+        android:background="#03A9F4"
+        android:textColor="#fff">
+
     </ListView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
