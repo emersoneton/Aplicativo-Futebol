@@ -1,0 +1,72 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Emerson\\AndroidStudioProjects\\Futbol-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en\\values-en.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Emerson\\AndroidStudioProjects\\Futbol-master\\app\\src\\main\\res\\values-en\\styles.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "9,15,16,20",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "411,695,785,935",
+                        "endLines": "14,15,19,20",
+                        "endColumns": "12,89,12,79",
+                        "endOffsets": "690,780,930,1010"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Emerson\\AndroidStudioProjects\\Futbol-master\\app\\src\\main\\res\\values-en\\dimens.xml",
+                    "from": {
+                        "startLines": "-1",
+                        "startColumns": "-1",
+                        "startOffsets": "-1"
+                    },
+                    "to": {
+                        "startLines": "5",
+                        "startColumns": "4",
+                        "startOffsets": "199",
+                        "endColumns": "41",
+                        "endOffsets": "236"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Emerson\\AndroidStudioProjects\\Futbol-master\\app\\src\\main\\res\\values-en\\colors.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1",
+                        "startColumns": "-1,-1,-1",
+                        "startOffsets": "-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,101,148",
+                        "endColumns": "45,46,50",
+                        "endOffsets": "96,143,194"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Emerson\\AndroidStudioProjects\\Futbol-master\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "from": {
+                        "startLines": "-1,1,-1",
+                        "startColumns": "-1,4,-1",
+                        "startOffsets": "-1,16,-1",
+                        "endColumns": "-1,43,-1",
+                        "endOffsets": "-1,55,-1"
+                    },
+                    "to": {
+                        "startLines": "6,7,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "241,294,338",
+                        "endColumns": "52,43,72",
+                        "endOffsets": "289,333,406"
+                    }
+                }
+            ]
+        }
+    ]
+}
