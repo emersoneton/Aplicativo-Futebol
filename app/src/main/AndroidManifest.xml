@@ -15,9 +15,14 @@
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity android:name=".TIMES" />
         <activity android:name=".Formulario_JogadorActivity" />
-<!--        <activity android:name=".Formulario_JogadorActivity" />-->
+        <!--        <activity android:name=".Formulario_JogadorActivity" />-->
         <activity
             android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <activity android:name=".SplashActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>

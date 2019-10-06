@@ -1,45 +1,35 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Emerson\\AndroidStudioProjects\\Futbol-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en\\values-en.xml",
+            "outputFile": "C:\\Users\\Admin\\Documents\\Aplicativo-Futebol\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en\\values-en.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Emerson\\AndroidStudioProjects\\Futbol-master\\app\\src\\main\\res\\values-en\\styles.xml",
+                    "source": "C:\\Users\\Admin\\Documents\\Aplicativo-Futebol\\app\\src\\main\\res\\values-en\\styles.xml",
                     "from": {
-                        "startLines": "-1,-1,-1,-1",
-                        "startColumns": "-1,-1,-1,-1",
-                        "startOffsets": "-1,-1,-1,-1"
+                        "startLines": "3,15,10,17",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "54,525,374,617",
+                        "endLines": "8,15,13,17",
+                        "endColumns": "12,90,12,80",
+                        "endOffsets": "368,611,519,693"
                     },
                     "to": {
                         "startLines": "9,15,16,20",
                         "startColumns": "4,4,4,4",
-                        "startOffsets": "411,695,785,935",
+                        "startOffsets": "411,730,820,970",
                         "endLines": "14,15,19,20",
                         "endColumns": "12,89,12,79",
-                        "endOffsets": "690,780,930,1010"
+                        "endOffsets": "725,815,965,1045"
                     }
                 },
                 {
-                    "source": "C:\\Users\\Emerson\\AndroidStudioProjects\\Futbol-master\\app\\src\\main\\res\\values-en\\dimens.xml",
+                    "source": "C:\\Users\\Admin\\Documents\\Aplicativo-Futebol\\app\\src\\main\\res\\values-en\\colors.xml",
                     "from": {
-                        "startLines": "-1",
-                        "startColumns": "-1",
-                        "startOffsets": "-1"
-                    },
-                    "to": {
-                        "startLines": "5",
-                        "startColumns": "4",
-                        "startOffsets": "199",
-                        "endColumns": "41",
-                        "endOffsets": "236"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Emerson\\AndroidStudioProjects\\Futbol-master\\app\\src\\main\\res\\values-en\\colors.xml",
-                    "from": {
-                        "startLines": "-1,-1,-1",
-                        "startColumns": "-1,-1,-1",
-                        "startOffsets": "-1,-1,-1"
+                        "startLines": "4,2,3",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "153,55,102",
+                        "endColumns": "45,46,50",
+                        "endOffsets": "194,97,148"
                     },
                     "to": {
                         "startLines": "2,3,4",
@@ -50,13 +40,13 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Emerson\\AndroidStudioProjects\\Futbol-master\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "source": "C:\\Users\\Admin\\Documents\\Aplicativo-Futebol\\app\\src\\main\\res\\values-en\\strings.xml",
                     "from": {
-                        "startLines": "-1,1,-1",
-                        "startColumns": "-1,4,-1",
-                        "startOffsets": "-1,16,-1",
-                        "endColumns": "-1,43,-1",
-                        "endOffsets": "-1,55,-1"
+                        "startLines": "2,1,3",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "60,16,113",
+                        "endColumns": "52,43,72",
+                        "endOffsets": "108,55,181"
                     },
                     "to": {
                         "startLines": "6,7,8",
@@ -64,6 +54,23 @@
                         "startOffsets": "241,294,338",
                         "endColumns": "52,43,72",
                         "endOffsets": "289,333,406"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Admin\\Documents\\Aplicativo-Futebol\\app\\src\\main\\res\\values-en\\dimens.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endColumns": "41",
+                        "endOffsets": "53"
+                    },
+                    "to": {
+                        "startLines": "5",
+                        "startColumns": "4",
+                        "startOffsets": "199",
+                        "endColumns": "41",
+                        "endOffsets": "236"
                     }
                 }
             ]

@@ -31,15 +31,12 @@
     </TextView>
 
     <ProgressBar
-        android:id="@+id/progressBar2"
-        style="?android:attr/progressBarStyleHorizontal"
+        android:id="@+id/progressBar4"
+        style="?android:attr/progressBarStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:background="#32CD32"
-        android:startColor="#0077CC"
-        android:endColor="#23A1D1"
+        android:background="#32CD32"/>
 
-/>
 
 </LinearLayout>

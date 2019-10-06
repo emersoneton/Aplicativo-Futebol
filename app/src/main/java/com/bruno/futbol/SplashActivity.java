@@ -23,7 +23,7 @@ public class SplashActivity extends Activity {
 
     private void mostrarMainActivity() {
         Intent intent = new Intent(
-                SplashActivity.this, com.bruno.futbol.Formulario_JogadorActivity.class
+                SplashActivity.this, MainActivity.class
         );
         startActivity(intent);
         finish();
